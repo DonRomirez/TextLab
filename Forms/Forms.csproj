@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EBC51994-B0DE-4374-9AC3-A46BE6BB7E31}</ProjectGuid>
+    <ProjectGuid>{5EDE8E1B-FDD3-48DC-8654-FFC62C89C516}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Forms</RootNamespace>
     <AssemblyName>Forms</AssemblyName>
@@ -78,6 +78,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyDLL\MyDLL.vcxproj">
+      <Project>{cb670b39-e709-433a-b01c-a05396dba79e}</Project>
+      <Name>MyDLL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
