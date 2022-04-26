@@ -1,1 +1,3 @@
-﻿  MyDLL.vcxproj -> C:\Users\romkp\source\repos\LabText\x64\Debug\MyDLL.dll
+﻿  Csh_Text.cpp
+  Csh_Text.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  MyDLL.vcxproj -> C:\Users\romkp\source\repos\LabText\x64\Debug\MyDLL.dll
