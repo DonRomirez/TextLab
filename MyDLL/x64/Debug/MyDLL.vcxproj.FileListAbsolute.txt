@@ -1,1 +1,2 @@
 C:\Users\romkp\source\repos\LabText\MyDLL\x64\Debug\MyDLL.vcxproj.AssemblyReference.cache
+C:\Users\romkp\source\repos\txt\TextLab\MyDLL\x64\Debug\MyDLL.vcxproj.AssemblyReference.cache

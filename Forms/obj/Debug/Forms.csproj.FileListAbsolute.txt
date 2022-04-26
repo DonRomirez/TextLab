@@ -12,3 +12,17 @@ C:\Users\romkp\source\repos\LabText\Forms\obj\Debug\Forms.csproj.CopyComplete
 C:\Users\romkp\source\repos\LabText\Forms\obj\Debug\Forms.exe
 C:\Users\romkp\source\repos\LabText\Forms\obj\Debug\Forms.pdb
 C:\Users\romkp\source\repos\LabText\Forms\obj\Debug\Forms.Form1.resources
+C:\Users\romkp\source\repos\txt\TextLab\Forms\bin\Debug\Forms.exe.config
+C:\Users\romkp\source\repos\txt\TextLab\Forms\bin\Debug\Forms.exe
+C:\Users\romkp\source\repos\txt\TextLab\Forms\bin\Debug\Forms.pdb
+C:\Users\romkp\source\repos\txt\TextLab\Forms\bin\Debug\MyDLL.dll
+C:\Users\romkp\source\repos\txt\TextLab\Forms\bin\Debug\MyDLL.pdb
+C:\Users\romkp\source\repos\txt\TextLab\Forms\obj\Debug\Forms.csproj.AssemblyReference.cache
+C:\Users\romkp\source\repos\txt\TextLab\Forms\obj\Debug\Forms.csproj.SuggestedBindingRedirects.cache
+C:\Users\romkp\source\repos\txt\TextLab\Forms\obj\Debug\Forms.Form1.resources
+C:\Users\romkp\source\repos\txt\TextLab\Forms\obj\Debug\Forms.Properties.Resources.resources
+C:\Users\romkp\source\repos\txt\TextLab\Forms\obj\Debug\Forms.csproj.GenerateResource.cache
+C:\Users\romkp\source\repos\txt\TextLab\Forms\obj\Debug\Forms.csproj.CoreCompileInputs.cache
+C:\Users\romkp\source\repos\txt\TextLab\Forms\obj\Debug\Forms.csproj.CopyComplete
+C:\Users\romkp\source\repos\txt\TextLab\Forms\obj\Debug\Forms.exe
+C:\Users\romkp\source\repos\txt\TextLab\Forms\obj\Debug\Forms.pdb
