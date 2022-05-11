@@ -12,7 +12,7 @@ class C_Text {
 	Node* t = NULL;
 	Stack<Node*>path;
 public:
-	
+
 	C_Text(std::string head = "Head");
 	std::string getHead();
 	void Next();
@@ -21,4 +21,7 @@ public:
 	void SubSection(std::string str);
 	void DeleteTree(Node* curr);
 	void popSection();
+	void setHead(std::string str);
+	void String_Text(Node* curr, std::string& str);
+	std::string Print_t();
 };
