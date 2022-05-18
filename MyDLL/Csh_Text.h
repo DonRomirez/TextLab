@@ -22,12 +22,24 @@ namespace MyDLL {
 			std::string res = msclr::interop::marshal_as<std::string>(s);
 			obj->CreateSection(res);
 		}
-		String^ String_Sections() {
-			std::string res=obj->String_Sections();
+		String^ String_t() {
+			std::string res=obj->Print_t();
 			String^ s = gcnew String(res.c_str());
 			return s;
 		}
-
-
+		void CreateSubSection(String^ s) {
+			std::string res = msclr::interop::marshal_as<std::string>(s);
+			obj->SubSection(res);
+		}
+		void Delete_Section() {
+			obj->popSection();
+		}
+		void Previous() {
+			obj->Previous();
+		}
+		void Next() {
+			obj->Next();
+		}
+		
 	};
 }

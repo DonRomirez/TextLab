@@ -1,0 +1,6 @@
+C:\Users\romkp\source\repos\txt\TextLab\Forms\obj\Release\Forms.csproj.AssemblyReference.cache
+C:\Users\romkp\source\repos\txt\TextLab\Forms\obj\Release\Forms.csproj.SuggestedBindingRedirects.cache
+C:\Users\romkp\source\repos\txt\TextLab\Forms\obj\Release\Forms.Form1.resources
+C:\Users\romkp\source\repos\txt\TextLab\Forms\obj\Release\Forms.Properties.Resources.resources
+C:\Users\romkp\source\repos\txt\TextLab\Forms\obj\Release\Forms.csproj.GenerateResource.cache
+C:\Users\romkp\source\repos\txt\TextLab\Forms\obj\Release\Forms.csproj.CoreCompileInputs.cache

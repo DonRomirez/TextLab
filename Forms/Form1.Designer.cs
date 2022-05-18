@@ -34,6 +34,10 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -60,14 +64,14 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 16);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Text  name";
+            this.label1.Text = "Text Name";
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(12, 172);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(266, 402);
+            this.textBox2.Size = new System.Drawing.Size(266, 347);
             this.textBox2.TabIndex = 3;
             // 
             // button2
@@ -88,12 +92,57 @@
             this.label2.Size = new System.Drawing.Size(58, 16);
             this.label2.TabIndex = 5;
             this.label2.Text = "Your text";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(13, 525);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(265, 49);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "Use this button after make a section";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(1257, 40);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(115, 33);
+            this.button4.TabIndex = 7;
+            this.button4.Text = "Delete Section";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(1351, 126);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(21, 31);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "↓";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(1351, 89);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(21, 31);
+            this.button6.TabIndex = 9;
+            this.button6.Text = "↑";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1394, 586);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox2);
@@ -115,6 +164,10 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 

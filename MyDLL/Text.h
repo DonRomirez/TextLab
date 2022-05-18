@@ -24,4 +24,5 @@ public:
 	void setHead(std::string str);
 	void String_Text(Node* curr, std::string& str);
 	std::string Print_t();
+	
 };

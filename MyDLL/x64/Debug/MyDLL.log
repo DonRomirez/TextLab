@@ -1,7 +1,0 @@
-﻿  Csh_Text.cpp
-  Text.cpp
-  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
-  Создание кода...
-C:\Users\romkp\source\repos\txt\TextLab\MyDLL\Text.cpp(81): warning C4717: C_Text::Print_Sections: рекурсия на всех путях выполнения, функция вызовет переполнение стека
-  Csh_Text.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
-  MyDLL.vcxproj -> C:\Users\romkp\source\repos\txt\TextLab\x64\Debug\MyDLL.dll

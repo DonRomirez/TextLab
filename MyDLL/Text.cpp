@@ -44,9 +44,11 @@ void C_Text::SubSection(std::string str) {
 		throw - 1;
 	Node* p = new Node;
 	p->down = NULL;
-	p->next = t->down;
+	//p->next = t->down;
+	p->next = NULL;
 	p->str = str;
 	t->down = p;
+	
 }
 void C_Text::setHead(std::string str) {
 	head->str = str;
@@ -60,7 +62,7 @@ void C_Text::DeleteTree(Node* curr) {
 }
 void C_Text::popSection() {
 	if (t == NULL)
-		throw - 1;
+		return;
 	Node* tmp = t;
 	if (path.IsEmpty()) {
 		head = head->next;
@@ -76,10 +78,19 @@ void C_Text::popSection() {
 	DeleteTree(tmp);
 }
 void C_Text::String_Text(Node* curr, std::string& str) {
-	if (curr == NULL)
+	if (curr == NULL) {
 		return;
-	str += curr->str;
-	str += "\n";
+	}
+	if (curr == this->t) {
+		if (t == head)
+			str += "*...\n ";
+		else
+		str += "*";
+	}
+	if (curr != this->head) {
+		str += curr->str;
+		str += "\n";
+	}
 	String_Text(curr->down, str);
 	String_Text(curr->next, str);
 }
